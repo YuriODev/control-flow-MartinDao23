@@ -1,0 +1,7 @@
+run = "run = \"node index.js\""
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "run = \"node index.js\""]
